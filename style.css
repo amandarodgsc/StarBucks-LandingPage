@@ -150,3 +150,67 @@ color: #333;
     background: #017143;
     clip-path: circle(600px at right 800px);
 }
+@media only screen and (max-width: 768px) {
+    section {
+        padding: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header ul {
+        margin-top: 20px;
+    }
+
+    header ul li a {
+        margin-left: 20px;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+
+    .content .textBox {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .content .imgBox {
+        width: 100%;
+        justify-content: center;
+        padding-right: 0;
+        margin-top: 30px;
+    }
+
+    .content .imgBox img {
+        max-width: 100%;
+    }
+
+  
+    .trumb{
+        top: 45%;
+    }
+    .trumb li {
+        margin: 0 10px;
+    }
+
+    .sci {
+        position: static;
+        transform: none;
+        top: auto;
+        right: auto;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .sci li a {
+        margin: 0 5px;
+    }
+
+   
+}
